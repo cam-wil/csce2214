@@ -2,11 +2,8 @@
     var1: .word 7, 18, 11, 3    #initialize var1 array
     var2: .word 12, 14, 7, 18   #initialize var2 array
     result: .word 0:4           #initialize empty result array
-    minus: .asciiz "-"
-    equals: .asciiz "="
-    newline:   .asciiz	"\n"
-.text
 
+.text
 main:
     #do main stuff here
     add $t0, $zero, $zero       #intitalizes i or t0 to 0
